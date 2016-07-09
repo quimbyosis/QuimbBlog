@@ -4,11 +4,12 @@
 
 html {
 	font-family: 'Baloo Da', cursive;
+	color: #FF8000;
 }
 
 body {
 
-	background-color: #FF8000;
+	background-color: #000;
 }
 
 .sidenav {
@@ -38,8 +39,14 @@ body {
 #main {
 	height: 100%;
 	margin-left: 250px;
+	background: 
+    linear-gradient(0deg, #000, transparent), 
+    #000 url("../img/meface.jpg") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+	padding: none;
 }
 
-#main:first-child {
-	height: 100%;
+#hello {
+	padding-top: 250px;
 }
