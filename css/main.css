@@ -10,6 +10,7 @@ html {
 body {
 
 	background-color: #000;
+	margin: -8px;
 }
 
 .sidenav {
@@ -38,7 +39,7 @@ body {
 
 #main {
 	height: 100%;
-	margin-left: 250px;
+	margin-left: 275px;
 	background: 
     linear-gradient(0deg, #000, transparent), 
     #000 url("../img/meface.jpg") no-repeat center center;
