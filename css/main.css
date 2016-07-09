@@ -4,7 +4,11 @@
 
 html {
 	font-family: 'Baloo Da', cursive;
-	background-color: orange;
+}
+
+body {
+
+	background-color: #FF8000;
 }
 
 .sidenav {
@@ -33,6 +37,9 @@ html {
 
 #main {
 	height: 100%;
-	padding: 20px;
 	margin-left: 250px;
+}
+
+#main:first-child {
+	height: 100%;
 }
