@@ -13,6 +13,14 @@ body {
 	margin: -8px;
 }
 
+button {
+	height: 50px;
+	background-color: orange;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
 .sidenav {
 	height: 100%; /* goes entire height of page */
 	width: 250px; /* width of bar */
@@ -43,6 +51,16 @@ body {
 	background: 
     linear-gradient(0deg, #000, transparent), 
     #000 url("../img/meface.jpg") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+	padding: none;
+}
+
+#main-cat {
+	height: 100%;
+	margin-left: 275px;
+	background: linear-gradient(0deg, #000, transparent),
+	#000 url("../img/kp.jpg") no-repeat center center;
 	background-size: cover;
 	height: 90vh;
 	padding: none;
