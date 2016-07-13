@@ -21,6 +21,10 @@ button {
 	font-weight: bold;
 }
 
+a::hover {
+	color: orange;
+}
+
 .sidenav {
 	height: 100%; /* goes entire height of page */
 	width: 250px; /* width of bar */
@@ -68,4 +72,9 @@ button {
 
 #hello {
 	padding-top: 250px;
+}
+
+#cats {
+	padding-top: 250px;
+	margin: -8px;
 }
