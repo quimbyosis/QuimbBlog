@@ -70,6 +70,16 @@ a::hover {
 	padding: none;
 }
 
+#main-weather {
+	height: 100%;
+	margin-left: 275px;
+	background: linear-gradient(0deg, #000, transparent),
+	#000 url("../img/sky.jpg") no-repeat center center;
+	background-size: cover;
+	height: 90vh;
+	padding: none;
+}
+
 #hello {
 	padding-top: 250px;
 }
@@ -77,4 +87,8 @@ a::hover {
 #cats {
 	padding-top: 250px;
 	margin: -8px;
+}
+
+#weather {
+	padding-top: 250px;
 }
